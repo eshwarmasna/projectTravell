@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "https://example.com/image1.jpg",
+    "destTitle": "Destination 1",
+    "location": "Location 1",
+    "grade": "A",
+    "fees": 100,
+    "description": "This is a description of destination 1."
+  },
+  { 
+    "id": 2,
+    "imgSrc": "https://example.com/image2.jpg",
+    "destTitle": "Destination 2",
+    "location": "Location 2",
+    "grade": "B",
+    "fees": 200,
+    "description": "This is a description of destination 2."
+  },
+  {
+    "id": 3,
+    "imgSrc": "https://example.com/image3.jpg",
+    "destTitle": "Destination 3",
+    "location": "Location 3",
+    "grade": "C",
+    "fees": 300,
+    "description": "This is a description of destination 3."
+  },
+  {
+    "id": 4,
+    "imgSrc": "https://example.com/image4.jpg",
+    "destTitle": "Destination 4",
+    "location": "Location 4",
+    "grade": "D",
+    "fees": 400,
+    "description": "This is a description of destination 4."
+  },
+  {
+    "id": 5,
+    "imgSrc": "https://example.com/image5.jpg",
+    "destTitle": "Destination 5",
+    "location": "Location 5",
+    "grade": "E",
+    "fees": 500,
+    "description": "This is a description of destination 5."
+  },
+  {
+    "id": 6,
+    "imgSrc": "https://example.com/image6.jpg",
+    "destTitle": "Destination 6",
+    "location": "Location 6",
+    "grade": "F",
+    "fees": 600,
+    "description": "This is a description of destination 6."
+  },
+  {
+    "id": 7,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },
+  {
+    "id": 8,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 8",
+    "location": "Location 8",
+    "grade": "G",
+    "fees": 800,
+    "description": "This is a description of destination 8."
+  },{
+    "id": 9,
+    "imgSrc": "https://example.com/image9.jpg",
+    "destTitle": "Destination 9",
+    "location": "Location 9",
+    "grade": "G",
+    "fees": 900,
+    "description": "This is a description of destination 9."
+  },{
+    "id": 10,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 10",
+    "location": "Location 10",
+    "grade": "G",
+    "fees": 1000,
+    "description": "This is a description of destination 10."
+  },{
+    "id": 11,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 11",
+    "location": "Location 11",
+    "grade": "G",
+    "fees": 1100,
+    "description": "This is a description of destination 11."
+  },{
+    "id": 12,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 12",
+    "location": "Location 12",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 13,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 14,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 15,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 16,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 17,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 18,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 19,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 20,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 21,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 22,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 23,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 24,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  },{
+    "id": 25,
+    "imgSrc": "https://example.com/image7.jpg",
+    "destTitle": "Destination 7",
+    "location": "Location 7",
+    "grade": "G",
+    "fees": 700,
+    "description": "This is a description of destination 7."
+  }
+]

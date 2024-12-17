@@ -1,0 +1,266 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Main Section */
+.main {
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  background-color: #fefefe;
+}
+
+.secTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #f7941d;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: #f7941d;
+}
+
+.seeContent {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Responsive grid */
+  gap: 1.5rem;
+  max-width: 1200px; /* Restrict grid width */
+  margin: 0 auto; /* Center alignment */
+  padding: 0; /* Equal spacing on left and right */
+}
+
+/* Destination Card */
+.singleDestination {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleDestination:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.imageDiv {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.imageDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.imageDiv img:hover {
+  transform: scale(1.1);
+}
+
+/* Card Info */
+.cardInfo {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.destTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.continent,
+.fees {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.icon {
+  color: #f7941d;
+  font-size: 1.2rem;
+}
+
+.name {
+  color: #555;
+}
+
+.grade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem; /* Ensure proper spacing */
+}
+
+.grade span {
+  font-size: 0.85rem;
+  color: green;
+}
+
+.price h5 {
+  font-size: 1.1rem;
+  color: #f7941d;
+  margin: 0.5rem 0;
+}
+
+.desc p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #f7941d, #ff6f61);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ff6f61, #f7941d);
+  transform: scale(1.05);
+}
+
+/* Modal Styling */
+.detailsModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.detailsContent {
+  background: #fff;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.closeButton:hover {
+  background: #c0392b;
+}
+
+.detailsImage img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.modalActions .btn.cancel {
+  background: #ddd;
+  color: #333;
+}
+
+.modalActions .btn.cancel:hover {
+  background: #ccc;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .seeContent {
+    padding: 0 1rem; /* Ensure spacing on small screens */
+  }
+
+  .secTitle .title {
+    font-size: 1.5rem;
+  }
+
+  .cardInfo {
+    padding: 1rem;
+  }
+
+  .destTitle {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .seeContent {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+    padding: 0 0.5rem;
+  }
+
+  .main {
+    padding: 1rem 0.5rem;
+  }
+
+  .destTitle {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}

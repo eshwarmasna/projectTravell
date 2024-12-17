@@ -1,0 +1,268 @@
+.home {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: teal;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+.filterButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+  background-color: #45a049;
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.homeContent {
+  width: 100%;
+  height: max-content;
+  padding: 8rem 1.5rem 3rem;
+  display: flex;
+  row-gap: 3rem;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  z-index: 100;
+}
+.textDiv {
+  padding: 2rem 0;
+}
+.smallText {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgba(239, 235, 235, 0.7);
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.smallText:hover {
+  color: #4caf50;
+  transform: translateY(-5px);
+}
+
+.homeTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.homeTitle:hover {
+  color: #4caf50;
+  transform: scale(1.05);
+}
+.cardDiv {
+  position: relative;
+  padding: 2rem 1rem;
+  background: whitesmoke;
+  border-radius: 10px;
+  gap: 1rem;
+}
+label {
+  display: block;
+  color: rgb(82, 61, 22);
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.label_total {
+  justify-content: space-between;
+  align-items: center;
+}
+.total {
+  color: rgb(16, 43, 67);
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.input {
+  height: 40px;
+  padding: 0 1rem;
+  background: teal;
+  border-radius: 3rem;
+}
+input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 500;
+}
+.input[type='range'] {
+  background: rgb(208, 183, 233);
+}
+#pace {
+  color: rgb(24, 23, 23);
+}
+.searchOptions {
+  background-color: teal;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 1rem; /* Compact size */
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: auto;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.icon {
+  font-size: 18px;
+}
+span {
+  font-size: 13px;
+}
+.homeFooterIcons {
+  width: 100%;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 24px; /* Medium size */
+  margin: 0 5px; /* Keep a slight gap between icons */
+  color: whitesmoke;
+  font-weight: 600;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+/* Input Fields Styling */
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Add spacing between input and icon */
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc; /* Light border for input */
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.inputWrapper:hover,
+.inputWrapper:focus-within {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on focus/hover */
+}
+
+.inputWrapper input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+  padding: 0.5rem 0;
+}
+
+.inputWrapper input::placeholder {
+  color: #aaa;
+}
+
+/* Icon Styling */
+.inputWrapper .icon {
+  font-size: 18px;
+  color: #333; /* Neutral color */
+  transition: color 0.3s ease;
+}
+
+.inputWrapper .icon:hover {
+  color: teal; /* Highlight on hover */
+}
+
+/* Footer Icons */
+.homeFooterIcons .icon {
+  font-size: 22px; /* Slightly larger size */
+  margin: 0 10px; /* Adjust spacing */
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.homeFooterIcons .icon:hover {
+  color: #4caf50; /* Green hover color for footer icons */
+}
+
+/* Button Styling */
+.searchOptions {
+  background-color: teal;
+  color: white;
+  border-radius: 25px;
+  padding: 0.8rem 1.5rem;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchOptions:hover {
+  background-color: #005f5f; /* Darker teal on hover */
+}
+
+.icon:hover {
+  color: blueviolet; /* Color change on hover */
+}
+@media screen and (min-width: 500px) {
+  .home .homeContent .textDiv .smallText {
+    font-size: 16px;
+  }
+  .homeTitle {
+    position: relative;
+    font-size: 2.3rem;
+    width: max-content;
+  }
+  .cardDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 660px) {
+  .home .homeContent .cardDiv {
+    padding: 2rem 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 940px) {
+  .home {
+    height: 95vh;
+  }
+}
+/* @media screen and (min-width: 1240px) {
+  .home {
+    height: 80vh;
+  } */

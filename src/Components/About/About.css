@@ -1,0 +1,68 @@
+/* General Styling */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height for centering */
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40; /* Dark gray color */
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1200px; /* Adjusting width for larger screens */
+  text-align: center; /* Center text */
+}
+
+/* Card Styling */
+.card {
+  border: none; /* Remove default border */
+  border-radius: 12px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight upward hover effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Elevation on hover */
+}
+
+.card-body {
+  text-align: center; /* Center text in the card */
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d; /* Bootstrap muted text color */
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}

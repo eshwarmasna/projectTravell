@@ -1,0 +1,110 @@
+.package-container {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.package-details {
+  max-width: 40%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.offer {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.discount {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.price span {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.package-button {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.package-button:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+.comparison-text {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.travel-essentials {
+  max-width: 45%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.read-more-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: #ffb400;
+}
+
+.star {
+  font-size: 1.2rem;
+}
+
+.rating {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  color: #333;
+}
+
+.reviews {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  color: #777;
+}

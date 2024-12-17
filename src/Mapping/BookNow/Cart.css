@@ -1,0 +1,81 @@
+/* Cart.css */
+
+/* General container styles */
+.cart {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .cart .title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* No bookings message */
+  .cart p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Cart list container */
+  .cartList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  /* Booking item styles */
+  .bookingItem {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .bookingItem .imageDiv img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .bookingItem .details {
+    padding: 1rem;
+  }
+  
+  .bookingItem .details h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .bookingItem .details p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.3rem 0;
+  }
+  @media (max-width: 768px) {
+    .cartList {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .bookingItem {
+      max-width: 100%;
+    }
+  }
+  .bookingItem:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+      
