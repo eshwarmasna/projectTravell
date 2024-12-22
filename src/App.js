@@ -36,7 +36,7 @@ const App = () => {
 
                   {/* Pass filteredData and isLoggedIn to Main */}
                   <Route path="/main" element={<Main filteredData={Data} isLoggedIn={isLoggedIn} />} />
-                  
+
                   <Route path="/booknow" element={<BookNow />} />
                   <Route path="/signup" element={<SignUp />} />
 

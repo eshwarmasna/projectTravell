@@ -171,6 +171,7 @@ const Main = ({ filteredData = [] }) => {
   const confirmBooking = () => {
     if (!isAuthenticated) {
       alert('Please login to proceed with the booking.');
+      navigate('/login');
     } else if (selectedDestination) {
       addBooking(selectedDestination); // Add to bookings
       alert(`Booking successful for ${selectedDestination.destTitle}!`);
