@@ -187,6 +187,7 @@ const Main = ({ filteredData = [] }) => {
       <div className="secTitle">
         <h3 className="title">Most Visited Destinations</h3>
       </div>
+      {console.log(filteredData,"Saai")}
 
       {filteredData.length === 0 ? (
         <div className="noData">

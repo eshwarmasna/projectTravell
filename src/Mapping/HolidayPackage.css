@@ -1,4 +1,4 @@
-.holiday-packages {
+/*.holiday-packages {
   display: flex;
   font-family: Arial, sans-serif;
 }
@@ -38,7 +38,7 @@
 .checkbox-group input[type='checkbox'] {
   width: 16px;
   height: 16px;
-  accent-color: #ff416c; /* Customize the checkbox color */
+  accent-color: #ff416c; /* Customize the checkbox color 
 }
 
 .packages-content {
@@ -171,3 +171,4 @@
 .get-offers-button:hover {
   background: linear-gradient(to right, #ff4b2b, #ff416c);
 }
+*/
